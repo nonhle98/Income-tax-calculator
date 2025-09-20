@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SARS Tax Calculator (2025)</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <!-- Header -->
+      <h1>Tax Calculator</h1>
+      <p class="lead">Estimate your South African income tax including rebates, UIF and medical credits.</p>
+
+      <!-- Inputs -->
+      <label for="income">Annual taxable income (R)</label>
+      <input id="income" type="number" placeholder="e.g. 500000">
+
+      <label for="medical">Medical Aid Members</label>
+      <input id="medical" type="number" placeholder="e.g. 3">
+
+      <label for="age">Your Age</label>
+      <input id="age" type="number" placeholder="e.g. 30">
+
+      <button id="calcBtn">Calculate</button>
+
+      <!-- Results -->
+      <div class="results">
+        <div>Estimated Tax: <span id="taxRes">R0.00</span></div>
+        <div>After-Tax Income: <span id="netRes">R0.00</span></div>
+        <div>Effective Rate: <span id="rateRes">0%</span></div>
+      </div>
+
+      <!-- Chart -->
+      <canvas id="chart" width="400" height="200"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
