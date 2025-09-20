@@ -15,7 +15,7 @@ A simple, interactive web-based tax calculator that estimates your **South Afric
 
 ## 📸 Preview
 
-![Preview Screenshot](Screenshot 2025-09-20 at 21-34-43 SARS Tax Calculator (2025).png) 
+![Preview Screenshot](Screenshot 2025-09-20 at 21-34-43 SARS Tax Calculator.png) 
 
 ## 🚀 Getting Started
 
